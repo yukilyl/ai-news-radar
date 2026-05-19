@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-19T20:56:02.428025Z",
+  "generated_at": "2026-05-19T22:04:21.275463Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 482,
+      "duration_ms": 619,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 314,
+      "duration_ms": 637,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 352,
-      "duration_ms": 18379,
+      "item_count": 353,
+      "duration_ms": 9138,
       "error": null
     },
     {
@@ -30,39 +30,39 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 4716,
+      "duration_ms": 3443,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2899,
-      "duration_ms": 1816,
+      "item_count": 2883,
+      "duration_ms": 1379,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 77,
-      "duration_ms": 653,
+      "item_count": 76,
+      "duration_ms": 422,
       "error": null
     },
     {
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
-      "ok": false,
-      "item_count": 0,
-      "duration_ms": 24807,
-      "error": "525 Server Error: <none> for url: https://hex2077.dev/"
+      "ok": true,
+      "item_count": 10,
+      "duration_ms": 273,
+      "error": null
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1803,
+      "duration_ms": 1621,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 326,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
@@ -78,19 +78,18 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 148,
-      "duration_ms": 416,
+      "duration_ms": 576,
       "error": null
     }
   ],
-  "successful_sites": 8,
+  "successful_sites": 9,
   "failed_sites": [
-    "aihubtoday",
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 4646,
-  "items_before_topic_filter": 6706,
-  "items_in_24h": 1034,
+  "fetched_raw_items": 4640,
+  "items_before_topic_filter": 6731,
+  "items_in_24h": 1032,
   "rss_opml": {
     "enabled": false,
     "path": null,
