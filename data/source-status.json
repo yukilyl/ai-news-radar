@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T21:54:27.008681Z",
+  "generated_at": "2026-07-01T22:58:48.502340Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 409,
+      "duration_ms": 487,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 429,
+      "duration_ms": 340,
       "error": null
     },
     {
@@ -22,31 +22,31 @@
       "site_name": "Info Flow",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 124995,
-      "error": "HTTPSConnectionPool(host='iris.findtruman.io', port=443): Max retries exceeded with url: /web/info_flow (Caused by ConnectTimeoutError(<HTTPSConnection(host='iris.findtruman.io', port=443) at 0x7f745a724650>, 'Connection to iris.findtruman.io timed out. (connect timeout=30)'))"
+      "duration_ms": 125166,
+      "error": "HTTPSConnectionPool(host='iris.findtruman.io', port=443): Max retries exceeded with url: /web/info_flow (Caused by ConnectTimeoutError(<HTTPSConnection(host='iris.findtruman.io', port=443) at 0x7fb942814090>, 'Connection to iris.findtruman.io timed out. (connect timeout=30)'))"
     },
     {
       "site_id": "bestblogs",
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 2043,
+      "duration_ms": 942,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2949,
-      "duration_ms": 1744,
+      "item_count": 2963,
+      "duration_ms": 1254,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 77,
-      "duration_ms": 513,
+      "item_count": 76,
+      "duration_ms": 950,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 313,
+      "duration_ms": 158,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1649,
+      "duration_ms": 1523,
       "error": null
     },
     {
@@ -70,27 +70,28 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 52,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
-      "ok": true,
-      "item_count": 130,
-      "duration_ms": 530,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 6148,
+      "error": "HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=hackernews (Caused by ResponseError('too many 500 error responses'))"
     }
   ],
-  "successful_sites": 8,
+  "successful_sites": 7,
   "failed_sites": [
     "iris",
-    "aihot"
+    "aihot",
+    "newsnow"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 4327,
-  "items_before_topic_filter": 6791,
-  "items_in_24h": 892,
+  "fetched_raw_items": 4210,
+  "items_before_topic_filter": 6884,
+  "items_in_24h": 893,
   "rss_opml": {
     "enabled": false,
     "path": null,
